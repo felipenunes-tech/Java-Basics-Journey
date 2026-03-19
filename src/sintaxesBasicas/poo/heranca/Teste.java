@@ -1,4 +1,4 @@
-package sintaxesBasicas.poo.heranca;
+package sintaxesBasicas.poo.heranca.herancaInt;
 
 public class Teste {
     public static void main(String[] args) {

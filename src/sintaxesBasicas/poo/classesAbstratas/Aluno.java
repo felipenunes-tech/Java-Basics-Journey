@@ -1,4 +1,4 @@
-package sintaxesBasicas.poo.heranca.herancaInt;
+package sintaxesBasicas.poo.polimorfismo;
 
 public class Aluno extends Pessoa {
 
@@ -27,5 +27,11 @@ public class Aluno extends Pessoa {
     }
     public boolean verificarAprovado(){
         return true;
+    }
+
+    public String obterEtiquetaEndereco(){
+        String s = "Endereço do aluno\n";
+        s+= super.getEndereco();
+        return s;
     }
 }

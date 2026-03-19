@@ -1,4 +1,4 @@
-package sintaxesBasicas.poo.heranca.herancaInt;
+package sintaxesBasicas.poo.polimorfismo;
 
 public class Pessoa {
     private String nome;
@@ -35,5 +35,9 @@ public class Pessoa {
 
     public void setTelefone(String telefone) {
         this.telefone = telefone;
+    }
+
+    public String obterEtiquetaEndereco(){
+        return endereco;
     }
 }
