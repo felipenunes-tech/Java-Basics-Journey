@@ -12,6 +12,7 @@ public class ExemploFinaly {
                 System.out.println("Erro ao dividir por 0");
             } catch (ArrayIndexOutOfBoundsException exception){
                 System.out.println("Erro no tamanho do array");
+                System.exit(0);
             }finally {
                 System.out.println("Sempre acontece pós o try ou catch");
             }
